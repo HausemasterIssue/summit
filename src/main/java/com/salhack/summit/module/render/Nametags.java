@@ -331,11 +331,11 @@ public class Nametags extends Module
         }
         
         if (responseTime > 200)
-            string += ChatFormatting.RED;
+            string += ChatFormatting.WHITE;
         else if (responseTime <= 200 && responseTime >= 100)
-            string += ChatFormatting.YELLOW;
+            string += ChatFormatting.WHITE;
         else if (responseTime < 100)
-            string += ChatFormatting.GREEN;
+            string += ChatFormatting.WHITE;
         
         string += "  " + responseTime + "ms" + ChatFormatting.RESET + "  ";
         
